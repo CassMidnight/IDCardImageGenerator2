@@ -1,0 +1,1 @@
+magick convert *.png -resize 56 -set filename:f %t_56x32.%e %[filename:f]
