@@ -1,1 +1,3 @@
 magick convert *.png -resize 56 -set filename:f %t_56x32.%e %[filename:f]
+
+magick mogrify -resize 56 *.png
